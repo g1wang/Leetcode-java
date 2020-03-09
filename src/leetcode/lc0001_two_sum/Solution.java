@@ -1,4 +1,4 @@
-package sample.lc0001_two_sum;
+package leetcode.lc0001_two_sum;
 
 
 

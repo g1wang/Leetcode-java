@@ -1,4 +1,4 @@
-package sample.lc0002_add_two_numbers;
+package leetcode.lc0002_add_two_numbers;
 
 /*
     You are given two non-empty linked lists representing two non-negative integers.

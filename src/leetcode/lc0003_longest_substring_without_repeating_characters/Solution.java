@@ -1,6 +1,5 @@
-package sample.lc0003_longest_substring_without_repeating_characters;
+package leetcode.lc0003_longest_substring_without_repeating_characters;
 
-import java.lang.reflect.Array;
 import java.util.*;
 
 /*
