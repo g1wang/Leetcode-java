@@ -24,12 +24,6 @@ The median is (2 + 3)/2 = 2.5
 
  */
 public class Solution4 {
-    public static void main(String[] args) {
-        Solution4 solution = new Solution4();
-        int[] nums1 = {1, 5, 8, 9};
-        int[] nums2 = {2, 4, 6};
-        System.out.println(solution.findMedianSortedArrays(nums1, nums2));
-    }
 
     public double findMedianSortedArrays(int A[], int B[]) {
 
