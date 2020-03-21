@@ -48,26 +48,20 @@ class Solution {
 
     public int myAtoi(String str) {
         if (str == null || str.length() == 0) return 0;
-        char[] sc = str.toCharArray();
         long result = 0;
-        int start = 0;
+        int index = 0;
         int sign = 1;
-        while (start < str.length() && sc[start++] == ' ') continue;
-        if (start < str.length() && sc[start - 1] == '-') {
+        str = str.trim();
+        if (index < str.length() && str.charAt(index) == '-') {
             sign = -1;
-            start++;
-        }else if (start < str.length() && sc[start - 1] == '+') {
-            start++;
+            index++;
+        } else if (index < str.length() && str.charAt(index) == '+') {
+            index++;
         }
-        for (int i = start - 1; i < sc.length; i++) {
-            if (Character.isDigit(sc[i])) {
-                result = result * 10 + (sc[i]-'0');
-                if (sign == -1) {
-                    if (sign * result < Integer.MIN_VALUE) {
-                        return Integer.MIN_VALUE;
-                    }
-                }else if (result > Integer.MAX_VALUE) return Integer.MAX_VALUE;
-            } else break;
+        while (index < str.length() && Character.isDigit(str.charAt(index))) {
+            result = result * 10 + (str.charAt(index++) - '0');
+            if (sign * result < Integer.MIN_VALUE) return Integer.MIN_VALUE;
+            if (sign * result > Integer.MAX_VALUE) return Integer.MAX_VALUE;
         }
         return (int) result * sign;
 
