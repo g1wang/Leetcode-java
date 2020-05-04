@@ -50,11 +50,6 @@ Output: false
  */
 public class Solution {
 
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-        System.out.println(solution.isMatch("abc", "aab"));
-    }
-
     public boolean isMatch(String s, String p) {
         //.* , a-z*
         if (p.isEmpty()) return s.isEmpty();
