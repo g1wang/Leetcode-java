@@ -49,6 +49,12 @@ Constraints:
 1 <= num <= 3999
  */
 
+/*
+solution
+1 pattern matching
+2 LinkedHashMap FIFO,map iter
+ */
+
 package leetcode.lc0012.integer_to_roman;
 
 import java.util.LinkedHashMap;
