@@ -52,7 +52,9 @@ s consists of parentheses only '()[]{}'.
 /*
 solution deque/stack
  */
+
 public class Solution {
+
     public boolean isValid(String s) {
         String leftStr = "([{";
         String rightStr = ")]}";
