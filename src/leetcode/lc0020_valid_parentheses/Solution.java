@@ -50,22 +50,22 @@ s consists of parentheses only '()[]{}'.
  */
 
 /*
-solution deque
+solution deque/stack
  */
 public class Solution {
     public boolean isValid(String s) {
         String leftStr = "([{";
         String rightStr = ")]}";
-        Deque<Character> queue = new LinkedList<>();
+        Deque<Character> stack = new LinkedList<>();
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
             if (leftStr.indexOf(c) != -1) {
-                queue.push(c);
-            } else if (queue.isEmpty() || rightStr.indexOf(c) != leftStr.indexOf(queue.pop())) {
+                stack.push(c);
+            } else if (stack.isEmpty() || rightStr.indexOf(c) != leftStr.indexOf(stack.pop())) {
                 return false;
             }
         }
-        if (queue.isEmpty())
+        if (stack.isEmpty())
             return true;
         else return false;
     }
