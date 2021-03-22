@@ -14,8 +14,8 @@ public class LC0029 {
             long sum = absDivisor;
             int result = 1;
             while (absDividend - sum <= sum) {
-                result += result;
-                sum += sum;
+                result <<=1;
+                sum<<=1;
                 if (sum < Integer.MIN_VALUE) break;
             }
             sumResult += result;
