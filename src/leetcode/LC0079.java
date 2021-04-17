@@ -1,13 +1,10 @@
 package leetcode;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Word Search
  * https://leetcode.com/problems/word-search/
  * <p>
- * dp
+ * dfs
  *
  * @author CodeX
  * @version 1.0
