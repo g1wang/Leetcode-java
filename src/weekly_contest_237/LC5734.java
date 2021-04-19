@@ -1,4 +1,4 @@
-package weekly_contest_238;
+package weekly_contest_237;
 
 /*
 Check if the Sentence Is Pangram
