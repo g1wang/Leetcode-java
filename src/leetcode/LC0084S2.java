@@ -12,7 +12,7 @@ package leetcode;
  * @version 1.0
  * @date 2021/4/25
  */
-public class LC0085S2 {
+public class LC0084S2 {
 
 
     public int largestRectangleArea(int[] heights) {
