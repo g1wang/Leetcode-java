@@ -1,7 +1,7 @@
 package leetcode;
 
 /**
- * TODO
+ *
  *
  * @author CodeX
  * @version 1.0
