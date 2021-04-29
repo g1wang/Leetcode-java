@@ -1,6 +1,5 @@
 package leetcode.lc100;
 
-import leetcode.TreeNode;
 
 /**
  * 98. Validate Binary Search Tree
