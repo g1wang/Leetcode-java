@@ -5,7 +5,7 @@ package leetcode;
  *
  * @author CodeX
  * @version 1.0
- * @date 2021/4/30 23:06
+ * @date 2021/4/30
  */
 public class ListNode {
     int val;

@@ -5,7 +5,7 @@ package leetcode;
  *
  * @author CodeX
  * @version 1.0
- * @date 2021/4/28 22:01
+ * @date 2021/4/28
  */
 public class TreeNode {
         int val;

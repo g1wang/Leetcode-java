@@ -5,7 +5,7 @@ package leetcode;
  *
  * @author CodeX
  * @version 1.0
- * @date 2021/4/29 8:43
+ * @date 2021/4/29
  */
 public class LC0121 {
     public int maxProfit(int[] prices) {

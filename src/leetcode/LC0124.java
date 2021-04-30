@@ -5,7 +5,7 @@ package leetcode;
  *
  * @author CodeX
  * @version 1.0
- * @date 2021/4/29 15:53
+ * @date 2021/4/29
  */
 public class LC0124 {
     int max = Integer.MIN_VALUE;

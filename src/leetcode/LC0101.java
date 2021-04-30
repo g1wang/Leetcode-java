@@ -5,7 +5,7 @@ package leetcode;
  *
  * @author CodeX
  * @version 1.0
- * @date 2021/4/28 21:56
+ * @date 2021/4/28
  */
 public class LC0101 {
     public boolean isSymmetric(TreeNode root) {

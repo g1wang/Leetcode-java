@@ -5,7 +5,7 @@ package leetcode;
  *
  * @author CodeX
  * @version 1.0
- * @date 2021/4/29 15:52
+ * @date 2021/4/29
  */
 public class LC0104 {
     public int maxDepth(TreeNode root) {

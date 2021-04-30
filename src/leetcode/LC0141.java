@@ -8,7 +8,7 @@ import java.util.Map;
  *
  * @author CodeX
  * @version 1.0
- * @date 2021/4/30 13:01
+ * @date 2021/4/30
  */
 public class LC0141 {
     public boolean hasCycle(ListNode head) {

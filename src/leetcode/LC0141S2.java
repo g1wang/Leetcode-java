@@ -5,7 +5,7 @@ package leetcode;
  *
  * @author CodeX
  * @version 1.0
- * @date 2021/4/30 14:41
+ * @date 2021/4/30
  */
 public class LC0141S2 {
     public boolean hasCycle(ListNode head) {

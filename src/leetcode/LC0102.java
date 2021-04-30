@@ -11,7 +11,7 @@ import java.util.Queue;
  *
  * @author CodeX
  * @version 1.0
- * @date 2021/4/29 15:41
+ * @date 2021/4/29
  */
 public class LC0102 {
 

@@ -5,7 +5,7 @@ package leetcode;
  *
  * @author CodeX
  * @version 1.0
- * @date 2021/4/29 9:28
+ * @date 2021/4/29
  */
 public class LC0114 {
     TreeNode pre =null;
