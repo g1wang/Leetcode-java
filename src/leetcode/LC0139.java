@@ -11,24 +11,18 @@ import java.util.List;
  * @date 2021/4/30
  */
 public class LC0139 {
-    public static void main(String[] args) {
-        String s = "asdf";
-        s = s.substring("as".length());
-        System.out.println(s);
-    }
 
     public boolean wordBreak(String s, List<String> wordDict) {
-        while (s.length() > 0) {
-            boolean match = false;
-            for (int i = 0; i < wordDict.size(); i++) {
-                if (s.startsWith(wordDict.get(i))) {
-                    s = s.substring(wordDict.get(i).length());
-                    match =true;
+        boolean[] match = new boolean[s.length()+1];
+        match[0] = true;
+        for (int i = 1; i <= s.length(); i++) {
+            for (int j = 0; j < i; j++) {
+                if (match[j]&&wordDict.contains(s.substring(j,i))){
+                    match[i] = true;
+                    break;
                 }
             }
-            if (!match) return false;
         }
-        return true;
-
+        return match[s.length()];
     }
 }
