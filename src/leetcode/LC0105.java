@@ -9,10 +9,6 @@ package leetcode;
  */
 public class LC0105 {
 
-    public static void main(String[] args) {
-        LC0105 lc0105 = new LC0105();
-        lc0105.buildTree(new int[]{1,2},new int[]{2,1});
-    }
     public TreeNode buildTree(int[] preorder, int[] inorder) {
 
         return build(preorder, inorder, 0, preorder.length - 1,0, preorder.length - 1);
