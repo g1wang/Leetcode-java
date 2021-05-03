@@ -44,8 +44,6 @@ Constraints:
 0 <= nums[i] <= 100
  */
 
-import java.util.Arrays;
-
 /**
  * TODO
  *

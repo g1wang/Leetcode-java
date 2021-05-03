@@ -1,8 +1,5 @@
 package leetcode.lc100;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Unique Paths
  * https://leetcode.com/problems/unique-paths/
