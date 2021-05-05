@@ -1,8 +1,10 @@
 package leetcode.lc202105;
 
+import java.util.Arrays;
+
 /**
  * 300. Longest Increasing Subsequence
- * 幽游白书
+ *
  * @author CodeX
  * @version 1.0
  * @date 2021/5/4
