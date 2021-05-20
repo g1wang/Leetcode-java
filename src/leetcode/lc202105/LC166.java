@@ -54,9 +54,4 @@ public class LC166 {
         return ans.toString();
     }
 
-    public static void main(String[] args) {
-        LC166 lc166 = new LC166();
-        System.out.println(lc166.fractionToDecimal(1, 17));
-    }
-
 }
