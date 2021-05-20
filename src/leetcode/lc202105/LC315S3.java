@@ -75,11 +75,4 @@ public class LC315S3 {
         return ansList;
     }
 
-    public static void main(String[] args) {
-        LC315S3 lc315S2 = new LC315S3();
-        List<Integer> list = lc315S2.countSmaller(new int[]{5, 2, 6, 1, 4, 2, 9, 6, 10});
-        for (int i = 0; i < list.size(); i++) {
-            System.out.println(list.get(i));
-        }
-    }
 }
