@@ -1,4 +1,4 @@
-package leetcode.lc_re1_202106;
+package leetcode.lc202105;
 
 import java.util.*;
 
@@ -10,11 +10,36 @@ import java.util.*;
  * @version 1.0
  * @date 2021/5/27
  */
-public class LC15S2 {
-    public List<List<Integer>> threeSum(int[] num) {
+public class LC15 {
+    public List<List<Integer>> threeSum(int[] nums) {
+        Set<List<Integer>> set = new HashSet<>();
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            map.put(-nums[i], i);
+        }
+        for (int i = 0; i < nums.length; i++) {
+            for (int j = i + 1; j < nums.length; j++) {
+                if (map.containsKey(nums[i] + nums[j])) {
+                    int idx = map.get(nums[i] + nums[j]);
+                    if (idx > j) {
+                        List<Integer> list = new ArrayList<>();
+                        list.add(nums[i]);
+                        list.add(nums[j]);
+                        list.add(nums[idx]);
+                        Collections.sort(list);
+                        set.add(list);
+                    }
+                }
+            }
+        }
+        return new ArrayList<>(set);
+    }
+}
+
+    /*public List<List<Integer>> threeSum(int[] num) {
         Arrays.sort(num);// Sorts array into ascending numerical order.
 
-        Set<Integer> set = new HashSet<>();
+        List<Integer> list1 = new ArrayList<Integer>();
         List<List<Integer>> lists = new ArrayList<List<Integer>>();
 
         if (num == null) {
@@ -23,11 +48,11 @@ public class LC15S2 {
 
         for (int i = 0; i < num.length - 1; i++) {
             // 去除重复
-            if (set.contains(num[i])) {// map和list的数据的插入方式不一样，list:顺序，map:hashcode
+            if (list1.contains(num[i])) {// map和list的数据的插入方式不一样，list:顺序，map:hashcode
                 continue;
             }
 
-            set.add(num[i]);
+            list1.add(num[i]);
             int target = -num[i];
             // two pointers
             int start = i + 1;
@@ -60,5 +85,4 @@ public class LC15S2 {
 
         }
         return lists;
-    }
-}
+    }*/

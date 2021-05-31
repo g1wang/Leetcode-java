@@ -1,4 +1,4 @@
-package leetcode.lc_re1_202106;
+package leetcode.lc202105;
 
 /**
  * 4. Median of Two Sorted Arrays
