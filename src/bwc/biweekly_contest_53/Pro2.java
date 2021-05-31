@@ -1,4 +1,4 @@
-package biweekly_contest_53;
+package bwc.biweekly_contest_53;
 
 import java.util.Arrays;
 

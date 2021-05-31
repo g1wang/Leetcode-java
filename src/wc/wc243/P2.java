@@ -1,4 +1,4 @@
-package wc243;
+package wc.wc243;
 
 public class P2 {
     public String maxValue(String n, int x) {

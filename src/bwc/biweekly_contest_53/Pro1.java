@@ -1,4 +1,4 @@
-package biweekly_contest_53;
+package bwc.biweekly_contest_53;
 /*
 5754. Substrings of Size Three with Distinct Characters
  */

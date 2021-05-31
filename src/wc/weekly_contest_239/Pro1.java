@@ -1,4 +1,4 @@
-package weekly_contest_239;
+package wc.weekly_contest_239;
 
 /*
 1848. Minimum Distance to the Target Element

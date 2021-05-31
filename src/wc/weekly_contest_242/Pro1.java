@@ -1,4 +1,4 @@
-package weekly_contest_242;
+package wc.weekly_contest_242;
 
 /*
 5763. Longer Contiguous Segments of Ones than Zeros

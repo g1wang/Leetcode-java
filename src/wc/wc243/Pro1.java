@@ -1,4 +1,4 @@
-package wc243;
+package wc.wc243;
 
 public class Pro1 {
     public boolean isSumEqual(String firstWord, String secondWord, String targetWord) {
